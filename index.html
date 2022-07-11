@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Razorpay.me - Billing label</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Use this link to enter the amount and pay securely via Razorpay: https://razorpay.me/@billinglabel2559">
+
+    <meta property="og:title" content="Payment request from Billing label">
+    <meta property="og:image" content="https://cdn.razorpay.com/static/assets/logo/rzp.png">
+    <meta property="og:image:width" content="276px">
+    <meta property="og:image:height" content="276px">
+    <meta property="og:description" content="Use this link to enter the amount and pay securely via Razorpay: https://razorpay.me/@billinglabel2559">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Payment request from Billing label" />
+    <meta name="twitter:description" content="Use this link to enter the amount and pay securely via Razorpay: https://razorpay.me/@billinglabel2559" />
+    <meta name="twitter:image" content="https://cdn.razorpay.com/static/assets/logo/rzp.png" />
+
+    <link rel="icon" href="https://razorpay.com/favicon.png" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.razorpay.com/static/payment-handle/bundle.css"
+    />
+
+                
+    <script>
+        var data = {"key_id":null,"is_test_mode":false,"merchant":{"id":"IkYGbm3TfTeIon","name":"Billing label","image":null,"brand_color":"rgb(35,113,236)","brand_text_color":"#ffffff","branding_variant":"control","optimised_web_vitals":"on","contact_optional":false,"email_optional":false,"support_email":"","support_mobile":"","tnc_link":null},"payment_link":{"id":"pl_IkYdTTsAxUvJnM","amount":null,"currency":"INR","currency_symbol":"₹","expire_by":null,"times_payable":null,"times_paid":0,"status":"active","status_reason":null,"short_url":"https:\/\/rzp.io\/l\/@billinglabel2559","receipt":null,"title":"Billing label","description":null,"support_contact":null,"support_email":null,"terms":null,"type":"payment","payment_page_items":[{"id":"ppi_IkYdTX8RCoXoXi","entity":"payment_page_item","payment_link_id":"pl_IkYdTTsAxUvJnM","item":{"id":"item_IkYdTXXw1aJm8i","active":true,"name":"amount","description":null,"amount":null,"unit_amount":null,"currency":"INR","type":"payment_page","unit":null,"tax_inclusive":false,"hsn_code":null,"sac_code":null,"tax_rate":null,"tax_id":null,"tax_group_id":null,"created_at":1642367579},"mandatory":true,"image_url":null,"min_purchase":null,"max_purchase":null,"min_amount":100,"max_amount":null,"settings":{"position":"0"},"plan_id":null,"product_config":null,"quantity_available":null}],"hosted_template_id":null,"udf_jsonschema_id":null,"min_amount_value":100,"amount_formatted":"0.00","expire_by_formatted":null,"settings":{"udf_schema":"[{\"name\":\"comment\",\"title\":\"Comment\",\"required\":true,\"type\":\"string\",\"options\":[],\"settings\":{\"position\":1}}]","version":"V2","theme":"light"},"handle_url":"https:\/\/razorpay.me\/@billinglabel2559"},"org":{"branding":{"show_rzp_logo":true,"branding_logo":""},"custom_code":"rzp"},"keyless_header":"api_v1:Lcqqr8VQrtfMo\/z9wzPtiZ2fKZyMWvwkAaz2Xkpe7DDfR9CawuvnOo0nozRTIvMXgvk85VSwke6IM\/2nRzVHCW9B0I7X\/Q==","view_preferences":{"exempt_customer_flagging":false,"disclaimer_text_enabled":"on","crossorigin_enabled":"on"},"base_url":"https:\/\/api.razorpay.com","environment":"production","payment_handle_amount":"10000"};
+
+        var templateData = {
+          key_id: data.key_id,
+          base_url: data.base_url,
+          merchant: data.merchant,
+          org: data.org,
+          view_preferences: data.view_preferences,
+          paymentData: data.payment_link,
+          environment: data.environment,
+          payment_handle_amount: data.payment_handle_amount,
+          is_preview: data.is_test_mode,
+          keyless_header: data.keyless_header,
+        };
+    </script>
+
+            <script>
+            function renderApp() {
+                window.RZP.renderApp('root', templateData);
+            }
+        </script>
+
+        <script src="https://cdn.razorpay.com/static/analytics/bundle.js" defer></script>
+        <script src="https://cdn.razorpay.com/static/assets/color.js" defer></script>
+        <script src="https://cdn.razorpay.com/static/payment-handle/bundle.js" defer onload="renderApp()"></script>
+        <script src="https://checkout.razorpay.com/v1/checkout.js" defer></script>
+    </head>
+
+<body>
+    <div id="root">
+            </div>
+</body>
+</html>
